@@ -8,16 +8,56 @@
         <link rel="stylesheet" href="stylesheets/main.css">
     </head>
     <body>
-        <!-- Top Right links goes here -->
-        <div>
-            <a href="imagesearch.html">Image Search</a>
-            <a href="advancedsearch.html">Advanced Search</a>
-        </div>
+        <main class="container">
+            <!-- Top Right links goes here -->
+            <div class="top-right-nav">
+                <nav>
+                    <ul>
+                        <li><a href="imagesearch.html">Image Search</a></li>
+                        <li><a href="advancedsearch.html">Advanced Search</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-        <!-- Form goes here -->
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+            <div>
+                <!-- Logo goes here -->
+                <div id="logo">
+                    <img src="images/googlelogo.png" rel="Logo" >
+                </div>
+
+                <!-- Form goes here -->
+                <div class="body-form">
+                    <form action="https://google.com/search">
+                        <input type="text" name="q">
+                        <input type="submit" value="Google Search">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer goes here -->
+        <footer class="container">
+            <div class="footer-nav">
+                <div class="left-footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a>About</a></li>
+                            <li><a>Advertising</a></li>
+                            <li><a>Business</a></li>
+                            <li><a>How to Search</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="right-footer-nav">
+                    <nav>
+                        <ul>
+                            <li<a>Terms</a></li>
+                            <li><a>Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
     </body>
 </html>

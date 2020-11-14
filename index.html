@@ -6,6 +6,8 @@
         <title>Google</title>
         <link rel="icon" type="image/png" href="images/googlefavicon.ico">
         <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     </head>
     <body>
         <main class="container">
@@ -22,14 +24,21 @@
             <div>
                 <!-- Logo goes here -->
                 <div id="logo">
-                    <img src="images/googlelogo.png" rel="Logo" >
+                    <img src="images/google-2015.svg" rel="Logo" >
                 </div>
 
                 <!-- Form goes here -->
-                <div class="body-form">
+                <div id="body-form">
                     <form action="https://google.com/search">
-                        <input type="text" name="q">
-                        <input type="submit" value="Google Search">
+                        <div class="form-text-field">
+                            <img src="images/search.svg" id="search-icon" >
+                            <input type="text" name="q">
+                            <img src="images/googlemic.png" id="mic-icon">
+                        </div>
+                        <div class="form-submit-buttons">
+                            <input type="submit" value="Google Search">
+                            <input type="submit" value="I'm feeling lucky">
+                        </div>
                     </form>
                 </div>
             </div>

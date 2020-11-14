@@ -120,12 +120,26 @@ body {
 
 .top-right-nav li{
     padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     font-size: 14px;
 }
 
 .top-right-nav a {
     color: $textcolor;
     text-decoration: none;
+}
+
+/*
+    ================================
+    MAIN BODY STYLE
+    ================================
+*/
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{  
+    width: 272px;
 }

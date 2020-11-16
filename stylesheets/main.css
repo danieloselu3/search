@@ -104,6 +104,9 @@ body {
   color: #222;
   text-decoration: none; }
 
+.top-right-nav a:hover {
+  text-decoration: underline; }
+
 /*
     ================================
     MAIN LOGO STYLE

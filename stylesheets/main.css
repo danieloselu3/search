@@ -140,6 +140,12 @@ body {
   display: flex;
   align-items: center; }
 
+.form-text-field:hover {
+  box-shadow: 1px 1px 10px #d3d3d3; }
+
+.form-text-field:active {
+  box-shadow: 1px 1px 10px #d3d3d3; }
+
 .form-text-field input {
   height: 37px;
   width: 487px;

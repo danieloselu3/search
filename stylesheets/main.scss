@@ -147,6 +147,7 @@ body {
     height: 390px;
 }
 
+
 #body-form form{
     display: flex;
     flex-direction: column;
@@ -159,6 +160,14 @@ body {
     padding: 5px 8px 0 14px;
     display: flex;
     align-items: center;
+}
+
+.form-text-field:hover{
+    box-shadow: 1px 1px 10px #d3d3d3;
+}
+
+.form-text-field:active {
+    box-shadow: 1px 1px 10px #d3d3d3;
 }
 
 .form-text-field input{

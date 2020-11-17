@@ -214,4 +214,7 @@ footer {
   padding: 15px;
   color: #70757A; }
 
+.footer-a a:hover {
+  text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */

@@ -68,7 +68,6 @@ table {
             box-sizing: border-box;
 }
 .container {
-    width: auto;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
@@ -90,6 +89,8 @@ body, input, button {
 
 body {
     background-color:$bg-color;
+    height: 100%;
+    width: 100%;
 }
 
 /*
@@ -144,9 +145,7 @@ body {
 */
 #body-form{
     padding: 20px;
-    height: 390px;
 }
-
 
 #body-form form{
     display: flex;
@@ -214,7 +213,6 @@ body {
 }
 
 .form-submit-buttons input:hover {
-    // border: 1px solid #dadce0;
     border-radius: 3px;
     box-shadow: 0 0 1px 1px #dadce0;
 }
@@ -224,7 +222,10 @@ body {
     FOOTER
     ===============================
 */
-footer {
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 15px;

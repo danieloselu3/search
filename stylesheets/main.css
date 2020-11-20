@@ -222,7 +222,7 @@ body {
 /* google images styles*/
 /*
     ==========================
-    Google Search logo
+    Google Images Search logo
     ==========================
 */
 #search-logo {
@@ -241,5 +241,28 @@ body {
   font-size: 16px;
   height: 16px;
   top: 74px; }
+
+/*
+    ============================
+     Google Images Search form
+    ============================
+*/
+#search-button {
+  height: 24px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/*
+    ======================
+     Google Images Search footer
+    ======================
+*/
+#img-search-country {
+  padding: 15px 30px;
+  border-bottom: 1px solid  #dadce0;
+  border-top: 1px solid  #dadce0; }
+
+.gi-search input {
+  width: 387px; }
 
 /*# sourceMappingURL=main.css.map */

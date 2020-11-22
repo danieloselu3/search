@@ -106,7 +106,8 @@ body {
   text-decoration: none; }
 
 .top-right-nav a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
 
 /*
     ================================
@@ -184,7 +185,8 @@ body {
 
 .form-submit-buttons input:hover {
   border-radius: 3px;
-  box-shadow: 0 0 1px 1px #dadce0; }
+  box-shadow: 0 0 1px 1px #dadce0;
+  cursor: pointer; }
 
 .form-submit-buttons input:focus {
   border-radius: 3px;
@@ -222,7 +224,8 @@ body {
   color: #70757A; }
 
 .footer-a a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
 
 /* google images styles*/
 /*
@@ -256,6 +259,23 @@ body {
   height: 24px;
   padding-left: 15px;
   padding-right: 15px; }
+
+/*
+    ======================
+    Image search button
+    ======================
+*/
+.gi-search button {
+  border: none;
+  background: transparent; }
+
+.gi-search button:hover {
+  cursor: pointer; }
+
+.gi-search button:focus {
+  outline: none;
+  border: none;
+  background: transparent; }
 
 /*
     ======================

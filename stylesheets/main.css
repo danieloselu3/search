@@ -186,6 +186,11 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 1px 1px #dadce0; }
 
+.form-submit-buttons input:focus {
+  border-radius: 3px;
+  box-shadow: 0 0 0 0.5px #4d90fe;
+  outline: none; }
+
 /*
     ===============================
     FOOTER

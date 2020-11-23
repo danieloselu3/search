@@ -338,6 +338,33 @@ body {
     width: 387px;
 }
 
+/* Google Advance Style */
+/*
+    ==================================
+    HEADER
+    ==================================
+*/
 
+#adv-search-logo {
+    padding: 0 20px 0 15px;
+    height: 60px;
+    display: flex;
+    align-self: center;
+}
 
+#adv-search-logo img{
+    width: 92px;
+}
+
+#adv-search-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.adv-search-nav{
+    padding-right: 20px;
+}
 

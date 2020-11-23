@@ -341,7 +341,7 @@ body {
 /* Google Advance Style */
 /*
     ==================================
-    HEADER
+    adv HEADER
     ==================================
 */
 
@@ -350,6 +350,10 @@ body {
     height: 60px;
     display: flex;
     align-self: center;
+}
+
+#adv-search-logo:hover{
+    cursor: pointer;
 }
 
 #adv-search-logo img{
@@ -373,3 +377,112 @@ body {
     color: #D93025;
     margin: 25px 35px;
 }
+
+/*
+    ===========================
+    adv main section style
+    ===========================
+*/
+
+.adv-form-top .main-form-f2 {
+    font-size: 16px;
+}
+
+.adv-form-top .main-form-f4 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.adv-search-main{
+    margin-left: 25px;
+}
+
+.adv-search-nav a{
+    text-decoration: none;
+    color: #222;
+}
+
+.adv-search-nav a:hover{
+    text-decoration: underline;
+}
+
+.main-form-f1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 1140px;
+}
+
+.main-form-f2{
+    width: 182px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.main-form-f3{
+    width: 570px;
+}
+
+.main-form-f3 input{
+    width: 570px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.main-form-f3 input:focus{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.main-form-f4 {
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    color: #555555;
+    margin: 0 0 8px 11px;
+}
+
+.main-form-f4 span {
+    font-family: monospace;
+}
+
+.form-conjucture {
+    width: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-range-input1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-range-input2 input {
+    width: 261px;
+}
+
+#adv-form-submit{
+    width: 570px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#adv-form-submit input{
+    height: 30px;
+    width: 120px;
+    background-color: #4d90fe;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    padding: 0 12px;
+}
+

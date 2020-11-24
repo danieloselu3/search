@@ -375,7 +375,10 @@ body {
 .adv-search-h1{
     font-size: 20px;
     color: #D93025;
-    margin: 25px 35px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    border-bottom: 1px solid  #dadce0;
 }
 
 /*
@@ -395,6 +398,7 @@ body {
 
 .adv-search-main{
     margin-left: 25px;
+    margin-top: 30px;
 }
 
 .adv-search-nav a{
@@ -484,5 +488,16 @@ body {
     border: none;
     border-radius: 2px;
     padding: 0 12px;
+}
+
+#adv-form-submit input:hover{
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+}
+
+#adv-form-submit input:focus{
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+    background: #357ae8;
+    outline: none;
 }
 

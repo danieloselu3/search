@@ -415,7 +415,6 @@ body {
     flex-direction: row;
     margin-bottom: 10px;
     align-items: center;
-    width: 1140px;
 }
 
 .main-form-f2{
@@ -430,7 +429,7 @@ body {
 }
 
 .main-form-f3 input{
-    width: 570px;
+    width: 100%;
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
@@ -499,5 +498,51 @@ body {
     box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
     background: #357ae8;
     outline: none;
+}
+
+
+
+/*
+    ==================================
+    RESPONSIVENESS
+    ==================================
+*/
+
+@media screen and (max-width:769px){
+    .top-right-nav li{
+        font-size:11px;
+    }
+
+    #logo {
+        margin-top: 30px;
+    }
+
+    #logo img{
+        width: 200px;
+    }
+
+    .form-text-field input{
+        width: 380px;
+        height: 27px;
+    }
+
+    #search-icon{
+        height: 12px;
+    }
+    #mic-icon {
+        height: 17px;
+    }
+    .form-submit-buttons input{
+        font-size: 12px;
+    }
+    #country{
+        font-size: 11px;
+    }
+    .footer-a a{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:769px) and (min-width:426px){
+
 }
 

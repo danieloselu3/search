@@ -458,5 +458,23 @@ body {
 
   .footer-a a {
     font-size: 11px; } }
+@media screen and (max-width: 625px) {
+  .form-text-field input {
+    width: 300px;
+    height: 27px; }
+
+  #footer-nav {
+    display: flex;
+    flex-direction: column; }
+
+  .footer-a {
+    display: flex;
+    justify-content: center; }
+
+  #country {
+    font-size: 14px; }
+
+  .footer-a a {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */

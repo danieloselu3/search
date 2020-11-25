@@ -546,23 +546,19 @@ body {
 
 @media screen and (max-width:625px){
 
-    .top-right-nav ul{
-        display: flex;
-        flex-direction: column;
-    }
-
     .top-right-nav li{
         font-size:14px;
     }
 
     .form-text-field input{
-        width: 300px;
-        height: 27px;
+        width: 20px;
+        height: 30px;
     }
     
     #footer-nav {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .footer-a{
         display: flex;

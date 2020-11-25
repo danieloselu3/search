@@ -459,6 +459,13 @@ body {
   .footer-a a {
     font-size: 11px; } }
 @media screen and (max-width: 625px) {
+  .top-right-nav ul {
+    display: flex;
+    flex-direction: column; }
+
+  .top-right-nav li {
+    font-size: 14px; }
+
   .form-text-field input {
     width: 300px;
     height: 27px; }

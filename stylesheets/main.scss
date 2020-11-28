@@ -517,8 +517,16 @@ body {
         margin-top: 30px;
     }
 
-    #logo img{
+    #logo img, #search-logo img{
         width: 200px;
+    }
+
+    .logo-subtext{
+        right: 40px;
+        position: relative;
+        font-size: 14px;
+        height: 16px;
+        top: 53px;
     }
 
     .form-text-field input{
@@ -545,9 +553,21 @@ body {
 
 
 @media screen and (max-width:625px){
-
     #logo {
         margin-top: 100px;
+    }
+
+    #search-logo img{
+        width: 150px;
+    }
+
+    .logo-subtext{
+        color: #4285f4;
+        right: 30px;
+        position: relative;
+        font-size: 12px;
+        height: 16px;
+        top: 40px;
     }
 
     .top-right-nav li{
@@ -578,6 +598,13 @@ body {
         font-size: 11px;
     }
     .l-f {
+        display: none;
+    }
+    .is-lf {
+        display: none;
+    }
+
+   .gi-search #search-icon, .gi-search #mic-icon {
         display: none;
     }
 }
